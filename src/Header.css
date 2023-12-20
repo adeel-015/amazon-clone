@@ -1,0 +1,152 @@
+body {
+  font-family: "Amazon Ember",Arial, sans-serif;
+}
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #131921;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header__logo {
+  width: 100px;
+  object-fit: contain;
+  padding: 1px 0 0 6px;
+  margin: 0 20px;
+  margin-left: 12px;
+  margin-top: 10px;
+}
+
+.header__logo:hover {
+    cursor: pointer;
+}
+
+.header__india {
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: -20px;
+  margin-top: -2px;
+  margin-right: 10px;
+}
+
+.header__india:hover {
+    cursor: pointer;
+}
+
+.header__location {
+  color: #fff;
+  margin-right: -10px;
+  margin-bottom: -11px;
+  padding: 0 0 0 6px;
+}
+
+.header__location:hover {
+    cursor: pointer;
+}
+
+.header__option:hover {
+    cursor: pointer;
+}
+
+#pincode {
+  font-size: 12px;
+  line-height: 14px;
+  height: auto;
+  font-weight: 600;
+  color: #ccc;
+}
+
+.header__search {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  margin-left: 10px;
+  border-radius: 24px;
+}
+
+input::placeholder {
+  color: #676767;
+  font-weight: 500;
+  font-size: medium;
+}
+
+.header__searchInput {
+  height: 20px;
+  font-size: medium;
+  padding: 10px;
+  border: none;
+  width: 100%;
+}
+
+.header__searchIcon {
+  padding: 5px;
+  height: 30px !important;
+  width: 35px !important;
+  background-color: rgb(254, 189, 105);
+  margin-right: 8px;
+}
+
+.header__searchIcon:hover {
+    cursor: pointer;
+    background-color: rgb(253, 170, 60);
+}
+
+.header__optionLineOne {
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+}
+
+#lang {
+    margin-top: 6px;
+}
+
+.rightLineOne {
+    margin-top: 3px;
+}
+
+.header__optionLineTwo {
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+.header__optionBasket {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.header__optionBasket,.header__optionBasketCount,:hover {
+    cursor: pointer;
+}
+
+.header__optionBasketCount {
+    font-size: 16px;
+    margin-top: -18px;
+    margin-left: 12px;
+  margin-right: 10px;
+  color: #f08804;
+}
+
+#cart {
+    margin-bottom: -18px;
+    margin-left: -30px;
+    margin-right: 10px;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+}
