@@ -27,6 +27,7 @@
 }
 
 .checkoutProduct__title {
+    width: 290px;
     font-size: 17px;
     font-weight: 800;
 }

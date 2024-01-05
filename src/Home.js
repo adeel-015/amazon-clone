@@ -8,7 +8,7 @@ function Home() {
   return (
     <div className="home">
       <div className="home__container">
-        <Carousel showArrows={true} showThumbs={false} infiniteLoop={true} autoPlay={true} showIndicators={false} showStatus={false}>
+        <Carousel showArrows={true} showThumbs={false} infiniteLoop={true} autoPlay={true} showIndicators={false} showStatus={false} >
           <div>
             <img className="home__image" src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Wireless/itelksdgw/D98343440_Mobile_Hero_3000x1200._CB577378367_.jpg" alt="" />
           </div>

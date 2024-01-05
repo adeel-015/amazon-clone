@@ -31,7 +31,7 @@ function Header() {
       </span>
       <div className="header__option">
         <span className="header__optionLineOne" id="pincode">Delivering to Delhi 110025</span>
-        <span className="header__optionLineTwo">Sign in to update.</span>
+        <span className="header__optionLineTwo">{user ? 'Sign Out to update.' : 'Sign in to update.'}</span>
       </div>
       <div className="header__search">
         <input className="header__searchInput" type="text" placeholder="Search Amazon.in" />
@@ -50,10 +50,12 @@ function Header() {
         </div>
         </Link>
 
-        <div className="header__option">
-          <span className="header__optionLineOne rightLineOne">Returns</span>
-          <span className="header__optionLineTwo">& Orders</span>
-        </div>
+        <Link to='/orders' className="header__option">
+          <div className="header__option">
+            <span className="header__optionLineOne rightLineOne">Returns</span>
+            <span className="header__optionLineTwo">& Orders</span>
+          </div>
+        </Link>
         <Link to="/checkout">
           <div className="header__optionBasket">
             <ShoppingCartCheckoutOutlinedIcon fontSize="large"/>
