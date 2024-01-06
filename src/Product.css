@@ -29,7 +29,7 @@
     /* margin-top: 15px;*/
 }
  
-button {
+.AddToCard {
     width: 100%; /* Set the width to 100% to make it as wide as the container */
     height: 30px;
     margin-top: 30px;
@@ -42,7 +42,7 @@ button {
     background: linear-gradient(to bottom, #f7dfa5, #f0c14b);
 }
 
-button:hover {
+.AddToCard:hover {
     background: linear-gradient(to bottom, #edc361, #f0c14b);
 }
 

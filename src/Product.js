@@ -45,7 +45,7 @@ function Product({ id, title, image, price, rating, max_price}) {
 
       
       
-        <button onClick={addToBasket}>Add to Cart</button>
+        <button className='AddToCard' onClick={addToBasket}>Add to Cart</button>
         {/* <button onClick={addToBasket}>Buy Now</button> */}
       
     </div>
