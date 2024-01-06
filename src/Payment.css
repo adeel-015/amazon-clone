@@ -38,15 +38,20 @@
 }
 
 .payment__details > form > div > button {
-    background: #f0c14b;
-    border-radius: 2px;
-    width: 100%;
+    width: 100%; /* Set the width to 100% to make it as wide as the container */
     height: 30px;
-    border: 1px solid;
-    font-weight: bolder;
     margin-top: 10px;
     border-color: #a88734 #9c7e31 #846a29;
     color: #111;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: none;
+    background: linear-gradient(to bottom, #f7dfa5, #f0c14b);
+}
+
+.payment__details > form > div > button:hover {
+    background: linear-gradient(to bottom, #edc361, #f0c14b);
 }
 
 .payment__testCard {
@@ -68,11 +73,19 @@
     background: #f0c14b;
     border-radius: 2px;
     border: 1px solid #a88734;
+    border-color: #a88734 #9c7e31 #846a29;
     color: #111;
     cursor: pointer;
     margin-top: 100px;
     margin-left: -100px;
-    font-weight: bolder;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: none;
+    background: linear-gradient(to bottom, #f7dfa5, #f0c14b);
+}
+
+.payment__testCard button:hover {
+    background: linear-gradient(to bottom, #edc361, #f0c14b);
 }
 
 .payment__testCard p {
