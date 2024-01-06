@@ -1,3 +1,10 @@
+# Live Project - <a href="https://clone-e0935.web.app" target="_blank">amazon-clone</a>
+
+# Description :- 
+
+### <p>A React-based e-commerce app with Firebase and Stripe integration for user authentication, real-time database, and secure payments. Express.js supports robust server-side features, and local development is facilitated by Firebase Emulator Suite due to Firebase Blaze Plan limitation.</p>
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
