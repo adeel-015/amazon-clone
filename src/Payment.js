@@ -179,7 +179,7 @@ function Payment() {
             {/* Test card details */}
             <div className='payment__testCard'>
                 <button onClick={() => setShowTestCard(!showTestCard)}>
-                    Show Test Card
+                    {showTestCard ? 'Hide Test Card' : 'Show Test Card'}
                 </button>
                 {showTestCard && (
                     <div>
